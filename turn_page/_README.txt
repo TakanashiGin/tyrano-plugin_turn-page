@@ -2,11 +2,11 @@
      ページめくりプラグイン
 ========== ========== ========== ==========
 
-【最終更新日】2020/05/16
+【最終更新日】2021/04/14
 【  名  称  】ページめくりプラグイン
 【  種  別  】ティラノスクリプト用の外部プラグイン
 【 製 作 者 】小鳥遊銀（たかなし ぎん）
-【 開発環境 】64bit版Windows10, ティラノスクリプトv502a, ティラノスタジオv101
+【 開発環境 】Ubuntu 20.04.2 LTS, ティラノスクリプトv502, node v14.15.1, npm 6.14.9
 【 動作環境 】上記開発環境にて確認
 【 連 絡 先 】Twitterまでどうぞ（@diyin_near_j）
 【ライセンス】MIT
@@ -98,7 +98,7 @@ turn_page
 
     opacity: 表示される画像の透明度を指定できます,
 
-    orientation: 「vertical」で水平方向にめくる。「horizontal」で縦方向にめくる。
+    orientation: 「horizontal」で水平方向にめくる。「vertical」で縦方向にめくる。
 
     direction: 「ltr」で左から右にめくる(left to right)。「rtl」で右から左にめくる (right to left)。
 
@@ -171,3 +171,4 @@ Please read about our license: http://tympanus.net/codrops/licensing/
 
 2020/05/16 とりあえず完成
 2020/05/21 [make_turn_page]と[clear_turn_page]を追加
+2021/04/14 min化
